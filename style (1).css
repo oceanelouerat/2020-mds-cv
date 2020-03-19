@@ -4,9 +4,13 @@ background-color:#293133;
 }
 h1 {
 	font-size: 300%;
-	font-family: 'raleway', sans-serif;;
+	font-family: 'raleway', sans-serif;
 	color:white;
 	text-align:center;
+}
+h2 {
+	font-size: 150% ;
+	font-family: 'raleway', sans-serif;
 }
 a {
 	display:button;
