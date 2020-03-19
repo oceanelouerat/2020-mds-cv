@@ -1,0 +1,22 @@
+body {
+color:white;
+background-color:#293133;
+}
+h1 {
+	font-size: 300%;
+	font-family: 'raleway', sans-serif;;
+	color:white;
+	text-align:center;
+}
+a {
+	display:button;
+	margin-left: auto;
+	margin-right:auto;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+hr {margin-right: 300
+	margin-left: 300
+	;}
