@@ -2,46 +2,105 @@ body {
 color:white;
 background-color:#293133;
 }
+
 h1 {
 	font-size: 300%;
 	font-family: 'raleway', sans-serif;
 	color:white;
 	text-align:center;
 }
+
 h2 {
 	font-size: 150% ;
 	font-family: 'raleway', sans-serif;
-	margin-left: 300;}
+	margin-left: 300;
+}
 
 h3 {
 	font-size: 100% ;
 	font-family: 'raleway', sans-serif;
 	margin-left: 500;
 }
+
 a {
 	display:button;
 	font-family: 'raleway', sans-serif;
 	margin-left: auto;
 	margin-right:auto;
 }
+
 img {
     display: block;
     margin-left: auto;
-    margin-right: auto }
-hr {margin-right: 300
-	margin-left: 300
-	;}
+    margin-right: auto;
+}
 
-#boutton1 {border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
-    font-size: 1rem;
-    text-align: center;
-    color: #fff;
-    
 
-#EXPERIENCE {padding:5px;
-        background-color: blue;
+
+.experiences {padding:5px;
+        background-color: white;
+        color:#eee277;
         width: 900px;
         display:block;
         margin:auto;}
+
+.wrapper1
+{display: grid;
+	color:#eee277;
+	grid-template: 1fr 1fr 1fr 1fr;
+   	grid-template: 7vh 15vh 7vh 7vh;
+    grid-column-gap: 2%;
+    grid-row-gap:5%;
+    background-color: #000100;
+    color: #ffffff;
+      }
+
+.nom
+{grid-column-start: 1;
+grid-column-end: 4;
+grid-row-start:1;
+grid-row-end: 2;
+}
+
+.photo
+{grid-column-start: 1 ;
+grid-column-end: 2;
+grid-row-start: 2;
+grid-row-end:3;
+}
+
+.presentation
+{grid-column-start: 2;
+grid-column-end: 4;
+grid-row-start: 2;
+grid-row-end:3;
+}
+
+.bouton1 {
+	color:white;
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 3;
+grid-row-end:4;
+}
+
+.bouton2 {
+grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 3;
+grid-row-end: 4;
+}
+
+.bouton3 {
+grid-column-start: 2 ;
+grid-column-end: 3;
+grid-row-start: 3;
+grid-row-end: 4;
+}
+
+.telephone{
+grid-column-start: 1;
+grid-column-end: 3;
+grid-row-start:4;
+grid-row-end:5;
+}
