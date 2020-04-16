@@ -38,6 +38,7 @@ img {
 
 
 .experiences {padding:5px;
+	font-family: 'raleway', sans-serif;
 		padding-bottom: 5%;
         background-color: white;
         color:#eee277;
@@ -46,6 +47,7 @@ img {
         margin:auto;}
 
 .formations{padding:5px;
+	font-family: 'raleway', sans-serif;
 		padding-bottom: 5%;
         background-color: white;
         color:#eee277;
@@ -54,6 +56,7 @@ img {
         margin:auto;}
 
 .competences{padding:5px;
+	font-family: 'raleway', sans-serif;
 		padding-bottom: 5%;
         background-color: white;
         color:#eee277;
@@ -73,7 +76,8 @@ img {
       }
 
 .nom
-{grid-column-start: 1;
+{
+	grid-column-start: 1;
 grid-column-end: 4;
 grid-row-start:1;
 grid-row-end: 2;
@@ -87,7 +91,8 @@ grid-row-end:3;
 }
 
 .presentation
-{grid-column-start: 2;
+{font-family: 'raleway', sans-serif;
+grid-column-start: 2;
 grid-column-end: 4;
 grid-row-start: 2;
 grid-row-end:3;
