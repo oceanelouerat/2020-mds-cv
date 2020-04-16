@@ -38,6 +38,7 @@ img {
 
 
 .experiences {padding:5px;
+		padding-bottom: 5%;
         background-color: white;
         color:#eee277;
         width: 900px;
@@ -45,6 +46,7 @@ img {
         margin:auto;}
 
 .formations{padding:5px;
+		padding-bottom: 5%;
         background-color: white;
         color:#eee277;
         width: 900px;
@@ -52,6 +54,7 @@ img {
         margin:auto;}
 
 .competences{padding:5px;
+		padding-bottom: 5%;
         background-color: white;
         color:#eee277;
         width: 900px;
