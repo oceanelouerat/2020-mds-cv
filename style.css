@@ -67,12 +67,13 @@ img {
 .wrapper1
 {display: grid;
 	color:#eee277;
-	grid-template: 1fr 1fr 1fr 1fr;
-   	grid-template: 7vh 15vh 7vh 7vh;
+	grid-template-colums: 1fr 1fr 1fr;
+   	grid-template-rows: auto auto auto 100px;
     grid-column-gap: 2%;
     grid-row-gap:5%;
     background-color: #000100;
     color: #ffffff;
+    justify-items: center;
       }
 
 .nom
@@ -114,8 +115,8 @@ grid-row-end: 4;
 }
 
 .bouton3 {
-grid-column-start: 2 ;
-grid-column-end: 3;
+grid-column-start: 3 ;
+grid-column-end: 4;
 grid-row-start: 3;
 grid-row-end: 4;
 }
