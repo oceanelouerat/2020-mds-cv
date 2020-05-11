@@ -1,6 +1,6 @@
 body {
 color:white;
-background-color:#293133;
+background-color:black;
 }
 
 h1 {
@@ -22,11 +22,22 @@ h3 {
 	margin-left: 500;
 }
 
+h4{ 
+font-size:100%;
+font-family: 'raleway' , sans-serif;
+font-style: bold; }
+
+p{font-size:75%;
+font-family: 'raleway', sans-serif;
+font-style:normal;
+color:white;}
+
 a {
 	display:button;
 	font-family: 'raleway', sans-serif;
 	margin-left: auto;
 	margin-right:auto;
+    text-align:center;
 }
 
 img {
@@ -35,45 +46,49 @@ img {
     margin-right: auto;
 }
 
-
+hr{width:50%;}
 
 .experiences {padding:5px;
 	font-family: 'raleway', sans-serif;
 		padding-bottom: 5%;
-        background-color: white;
+        background-color: black;
         color:#eee277;
         width: 900px;
         display:block;
-        margin:auto;}
+        margin-left:25%;}
 
 .formations{padding:5px;
 	font-family: 'raleway', sans-serif;
 		padding-bottom: 5%;
-        background-color: white;
+        background-color: black;
         color:#eee277;
         width: 900px;
         display:block;
-        margin:auto;}
+        margin-left:25%;}
 
 .competences{padding:5px;
 	font-family: 'raleway', sans-serif;
 		padding-bottom: 5%;
-        background-color: white;
+        background-color: black;
         color:#eee277;
         width: 900px;
         display:block;
-        margin:auto;}
+        margin-left:25%;}
 
 .wrapper1
 {display: grid;
 	color:#eee277;
-	grid-template-colums: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
    	grid-template-rows: auto auto auto 100px;
     grid-column-gap: 2%;
     grid-row-gap:5%;
     background-color: #000100;
     color: #ffffff;
-    justify-items: center;
+    justify-content: center; 
+    align-content: center;
+    margin-right: 15%;
+    margin-left: 20%;
+    margin-bottom:8%;
       }
 
 .nom
@@ -99,31 +114,123 @@ grid-row-start: 2;
 grid-row-end:3;
 }
 
-.bouton1 {
-	color:white;
+.bouton {width:100px;
+    height:85px;
+    background:#eee277;
+    font:bold 13px;
+    border-radius:50%;
+    border:none;
+    color:#fff;
+    text-align:center;
+    font-size:70%;
+    vertical-align: middle;
+}
+
+.bouton 1 {
 grid-column-start: 1;
 grid-column-end: 2;
 grid-row-start: 3;
 grid-row-end:4;
 }
 
-.bouton2 {
+.bouton 2 {
 grid-column-start: 2;
 grid-column-end: 3;
 grid-row-start: 3;
 grid-row-end: 4;
+
 }
 
-.bouton3 {
+.bouton 3 {
 grid-column-start: 3 ;
 grid-column-end: 4;
 grid-row-start: 3;
 grid-row-end: 4;
+
 }
 
 .telephone{
 grid-column-start: 1;
-grid-column-end: 3;
+grid-column-end: 4;
 grid-row-start:4;
 grid-row-end:5;
 align-content: center}
+
+
+.quisuisje {padding:5px;
+    font-family: 'raleway', sans-serif;
+        padding-bottom: 5%;
+        background-color: black;
+        color:#eee277;
+        width: 900px;
+        display:block;
+        margin-left:10%;
+        margin-right:10%;
+        text-align: center;
+
+}
+.cequejaime {padding:5px;
+    font-family: 'raleway', sans-serif;
+        padding-bottom: 5%;
+        background-color: black;
+        color:#eee277;
+        width: 900px;
+        display:block;
+        margin-left:42%;
+        margin-right:10%;
+        }
+
+
+.wrapperfin{
+    display:grid;
+    color:#eee277;
+    grid-template-columns: 4fr auto;
+    grid-template-rows: 2fr 2fr;
+    grid-column-gap: none;
+    grid-row-gap:none;
+    background-color: black;
+    color: #ffffff;
+    margin-left: 15%;
+    margin-right:20%;
+
+}
+
+.video {
+    grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 1;
+grid-row-end:2;
+    width:100px;
+    height:85px;
+    background:#eee277;
+    font:bold 13px;
+    border-radius:50%;
+    border:none;
+    color:#fff;
+    text-align: :center;
+    font-size:70%;
+    vertical-align: middle;
+    padding-top: 25px;
+}
+
+.book {grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 2;
+grid-row-end:3;
+    width:100px;
+    height:85px;
+    background:#eee277;
+    font:bold 13px;
+    border-radius:50%;
+    border:none;
+    color:#fff;
+    text-align: :center;
+    font-size:70%;
+    vertical-align: middle;
+    padding-top: 25px;
+}
+
+.asmr {grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end:3;}
