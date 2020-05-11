@@ -122,8 +122,9 @@ grid-row-end:3;
     border:none;
     color:#fff;
     text-align:center;
-    font-size:70%;
+    font-size:90%;
     vertical-align: middle;
+    font-family:'raleway',sans-serif;
 }
 
 .bouton 1 {
@@ -211,6 +212,7 @@ grid-row-end:2;
     font-size:70%;
     vertical-align: middle;
     padding-top: 25px;
+    font-family:'raleway',sans-serif;
 }
 
 .book {grid-column-start: 2;
@@ -228,6 +230,7 @@ grid-row-end:3;
     font-size:70%;
     vertical-align: middle;
     padding-top: 25px;
+    font-family:'raleway',sans-serif;
 }
 
 .asmr {grid-column-start: 1;
